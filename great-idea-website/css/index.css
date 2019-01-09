@@ -79,7 +79,7 @@ header {
 }
 header nav {
 	display: inline-block;
-	margin: 30px 150px 5px 0px;
+	margin: 20px 150px 5px 0px;
 	/*border: 2px dashed green;*/
 }
 
@@ -93,26 +93,40 @@ header nav a {
 	height: 30px;
 	/*border: 2px solid magenta;*/
 }
-h2 {
-	font-size: 20px;
-	font-weight: bold;
-}
 .innovation {
-	border: 3px solid orange;
+	display: inline-block;
+	width: 880px;
+	padding: 10px;
+	/*border: 3px solid orange;*/
 }
 
 .innovation h1{
 	display: inline-block;
 	font-family: "Bangers" cursive;
-	font-size: 85px;
+	font-size: 75px;
+	text-align: center;
+	margin: 0 70px 0;
 }
+.innovation .header-image {
+	width: 40%;
+}
+	
+
 button {
 	background: white;
+	width: 150px;
+	height: 30px;
+	margin-left: 20px;
+	border: 1px solid black;
 }
 
 .main-content-top {
 	border-top: 1px solid black;
 	margin: 10px 0 10px 0;
+}
+h2 {
+	font-size: 20px;
+	font-weight: bold;
 }
 
 .features, .about {
