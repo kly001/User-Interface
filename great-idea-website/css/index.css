@@ -70,21 +70,35 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 	/*border: 1px solid red;*/
 }
-header nav a{
+
+header {
+	/*border: 2px dotted purple;*/
 	display: inline-block;
-	margin: 35px 20px 5px;
-	color: gray;
+	width: 880px;
+	height: 75px;
+}
+header nav {
+	display: inline-block;
+	margin: 30px 150px 5px 0px;
 	/*border: 2px dashed green;*/
 }
 
+header nav a {
+	padding: 20px;
+	color: gray;
+}
 .logo {
 	display: inline-block;
-	margin: 0 0 5px 650px;
+	width: 150px;
+	height: 30px;
 	/*border: 2px solid magenta;*/
 }
 h2 {
 	font-size: 20px;
 	font-weight: bold;
+}
+.innovation {
+	border: 3px solid orange;
 }
 
 .innovation h1{
@@ -96,10 +110,16 @@ button {
 	background: white;
 }
 
+.main-content-top {
+	border-top: 1px solid black;
+	margin: 10px 0 10px 0;
+}
+
 .features, .about {
 	display: inline-block;
 	width: 350px;
 	margin: 20px 0 40px 55px;
+
 }
 
 .services, .product, .vision {
