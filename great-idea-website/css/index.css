@@ -64,3 +64,63 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 880px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+}
+header nav a{
+	display: inline-block;
+	margin: 35px 20px 5px;
+	color: gray;
+	/*border: 2px dashed green;*/
+}
+
+.logo {
+	display: inline-block;
+	margin: 0 0 5px 650px;
+	/*border: 2px solid magenta;*/
+}
+h2 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.innovation h1{
+	display: inline-block;
+	font-family: "Bangers" cursive;
+	font-size: 85px;
+}
+button {
+	background: white;
+}
+
+.features, .about {
+	display: inline-block;
+	width: 350px;
+	margin: 20px 0 40px 55px;
+}
+
+.services, .product, .vision {
+	display: inline-block;
+	width:220px;
+	margin: 20px 0 40px 50px;
+}
+p {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.main-content-bottom {
+border-bottom: 1px solid black;
+}
+
+footer {
+	margin: 40px;
+}
+address {
+	margin: 15px 0 15px 0;
+}
+.copyright {
+	text-align: center;
+}
