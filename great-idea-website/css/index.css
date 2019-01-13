@@ -72,10 +72,11 @@ h1, h2, h3, h4, h5 {
 }
 
 header {
-	/*border: 2px dotted purple;*/
 	display: inline-block;
 	width: 880px;
 	height: 75px;
+	background: lightblue;
+
 }
 header nav {
 	display: inline-block;
@@ -86,6 +87,10 @@ header nav {
 header nav a {
 	padding: 20px;
 	color: gray;
+}
+header nav a:hover{
+	color:navy;
+	font-weight: bold;
 }
 .logo {
 	display: inline-block;
