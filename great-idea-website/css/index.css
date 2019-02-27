@@ -49,7 +49,10 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+}
+.container{
+	border: 1px solid lightgray;
 }
 
 html, body {
@@ -65,17 +68,18 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+
+
 .container {
 	width: 880px;
 	margin: 0 auto;
-	/*border: 1px solid red;*/
 }
 
 header {
 	display: inline-block;
 	width: 880px;
 	height: 75px;
-	background: lightblue;
+	background: lightgray;
 	overflow: hidden;
 	position: fixed;
 	top:0;
@@ -88,7 +92,7 @@ header nav {
 
 header nav a {
 	padding: 20px;
-	color: gray;
+	color: navy;
 }
 header nav a:hover{
 	color:navy;
@@ -126,6 +130,10 @@ button {
 	margin-left: 20px;
 	border: 1px solid black;
 }
+button:hover {
+	background: gray;
+	color: white;
+}
 
 .main-content-top {
 	border-top: 1px solid black;
@@ -157,7 +165,8 @@ border-bottom: 1px solid black;
 }
 
 footer {
-	margin: 40px;
+	margin-left: 50px;
+	
 }
 address {
 	margin: 15px 0 15px 0;
