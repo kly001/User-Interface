@@ -51,9 +51,6 @@ table {
 * {
 	box-sizing: border-box;
 }
-.container{
-	border: 1px solid lightgray;
-}
 
 html, body {
     height: 100%;
@@ -61,9 +58,9 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Comic Sans MS';
+    font-family: 'Bangers';
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 /* Your code starts here! */
@@ -79,7 +76,6 @@ header {
 	display: inline-block;
 	width: 880px;
 	height: 75px;
-	background: lightgray;
 	overflow: hidden;
 	position: fixed;
 	top:0;
@@ -87,7 +83,6 @@ header {
 header nav {
 	display: inline-block;
 	margin: 20px 150px 5px 0px;
-	/* border: 2px dashed green; */
 }
 
 header nav a {
@@ -102,14 +97,12 @@ header nav a:hover{
 	display: inline-block;
 	width: 150px;
 	height: 30px;
-	/*border: 2px solid magenta;*/
 }
 .innovation {
 	display: inline-block;
 	width: 880px;
 	padding: 10px;
 	margin-top: 100px;
-	/*border: 3px solid orange;*/
 }
 
 .innovation h1{
